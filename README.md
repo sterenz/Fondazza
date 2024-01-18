@@ -15,8 +15,8 @@ This web application is built using Next.js and serves as an online platform for
 - **i18n**: Internationalization library for managing multiple languages.
 
 ## Usage
-- Run the development server: `yarn dev`
-- Access the application via your web browser at `http://localhost:3000`
+- Run the development server: `yarn dev`.
+- Access the application via your web browser at `http://localhost:3000`.
 
 ## Future Roadmap
 - Implement e-commerce functionalities to enable users to purchase wine products online.
