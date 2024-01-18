@@ -1,1 +1,0 @@
-self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{\"/Users/stefano_renzetti/Documents/Fondazza/app/[locale]/layout\":[\"static/media/b88d70fab26c6dc1-s.p.woff2\",\"static/media/cf296de486abdd49-s.p.woff2\",\"static/media/c811b3fc1b41c454-s.p.woff2\"]},\"appUsingSizeAdjust\":true,\"pagesUsingSizeAdjust\":false}"
