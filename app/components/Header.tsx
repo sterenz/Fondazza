@@ -3,7 +3,7 @@ import Image from "next/image"
 
 export default function Header() {
   return (
-    <header className="w-full p-6 m-auto animate-fade-in-down pb-12">
+    <header className="w-full p-6 m-auto animate-fade-in-down pb-8">
       <div className="flex justify-between">
         <Link href="" className="">
           {/* <Image
