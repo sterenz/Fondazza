@@ -14,6 +14,16 @@ const nextConfig = {
 
   // Specify the assetPrefix for GitHub Pages
   assetPrefix: '/Fondazza/', // Update this with your GitHub repository name
+
+  // Define a custom webpack configuration to handle asset paths
+  webpack: (config, { buildId, dev, isServer, defaultLoaders, webpack }) => {
+    // Add your custom webpack configuration here
+
+    // Ensure that the asset paths are correctly generated
+    config.output.publicPath = `${defaultLoaders.nextImage.loader.options.basePath || ''}/_next/`;
+    
+    return config;
+  },
 };
 
 module.exports = nextConfig;
