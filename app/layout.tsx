@@ -32,12 +32,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="it" className={`${inter.variable} font-sans ${EB_garamond.variable} font-display`}>
-      <body>
-        <div id='page-container' className='min-h-[100vh] relative'>
-          <Header />
-            {children}
-          <Footer />
-        </div>
+      <body className='min-h-[100vh]'>
+        <Header />
+          {children}
+        <Footer />
       </body>
     </html>
   )
