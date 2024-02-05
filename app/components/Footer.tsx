@@ -1,19 +1,20 @@
 import Link from "next/link"
+import IubendaPrivacyPolicy from "../components/IubendaPrivacyPolicy.js"
 
 export default function Footer() {
   return (
-    <section className="w-full p-6 m-auto animate-fade-in-down pb-8 md:absolute md:bottom-0">
-      <div className="flex justify-between">
-        <p>Az. Agr. La Fondazza di Leena Pasanen - Grizzana Morandi (BO), Italy</p>
-        {/* <div>
-            <ul className="hidden md:flex items-center gap-x-6 cursor-pointer">
-                <Link href="/">
-                    <li className="">
-                        PRIVACY
-                    </li>
-                </Link> 
+    <section className="w-full p-6 m-auto animate-fade-in-down pb-12 absolute bottom-0 text-sm">
+      <div className="md:flex justify-between">
+        <p className="pt-4">
+          Az. Agr. La Fondazza di Leena Pasanen - Grizzana Morandi (BO), Italy
+        </p>
+        <div>
+            <ul className="flex items-center gap-x-6 cursor-pointer">
+                <li className="pt-4">
+                  <IubendaPrivacyPolicy />
+                </li> 
             </ul>
-        </div> */}
+        </div>
       </div>
     </section>
   )
