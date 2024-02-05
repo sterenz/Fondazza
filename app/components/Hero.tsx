@@ -15,7 +15,7 @@ export default function Home() {
       </div>
       <div className='lg:mt-0 lg:col-span-7 lg:flex'>
         <Image
-          className="bg-cover m-auto min-w-fit"
+          className="bg-cover m-auto min-w-full"
           priority={false}
           src={hero}
           alt="La Fondazza oak"

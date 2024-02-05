@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
+
 import { Inter, EB_Garamond } from 'next/font/google'
 import './globals.css'
+import { IubendaProvider, IubendaCookieSolutionBannerConfigInterface, i18nDictionaries } from '@mep-agency/next-iubenda';
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 
@@ -25,6 +27,14 @@ export const metadata: Metadata = {
   description: 'Azienda Agricola',
 }
 
+// const iubendaBannerConfig: IubendaCookieSolutionBannerConfigInterface = {
+//   siteId: 3469226, // Your site ID
+//   cookiePolicyId: 93796554, // Your cookie policy ID
+//   lang: 'en',
+
+//   // See https://www.iubenda.com/en/help/1205-how-to-configure-your-cookie-solution-advanced-guide
+// };
+
 export default function RootLayout({
   children,
   params: {locale}
@@ -35,9 +45,11 @@ export default function RootLayout({
   return (
     <html lang={locale} className={`${inter.variable} font-sans ${EB_garamond.variable} font-display`}>
       <body className='min-h-[100vh]'>
-        <Header />
-        {children}
-        <Footer />
+        {/* <IubendaProvider bannerConfig={iubendaBannerConfig}> */}
+          <Header />
+          {children}
+          <Footer />
+        {/* </IubendaProvider> */}
       </body>
     </html>
   )

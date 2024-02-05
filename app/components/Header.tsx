@@ -15,15 +15,20 @@ export default function Header() {
             priority
           />
         </Link>
-        {/* <nav>
+        <nav>
             <ul className="hidden md:flex items-center gap-x-6 cursor-pointer">
-                <Link href="/">
+                <Link href="/it">
                     <li className="">
-                        It
+                        IT
+                    </li>
+                </Link> 
+                <Link href="/en">
+                    <li className="">
+                        EN
                     </li>
                 </Link> 
             </ul>
-        </nav> */}
+        </nav>
       </div>
     </header>
   )

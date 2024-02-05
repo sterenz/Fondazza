@@ -175,6 +175,11 @@
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
 
+"@mep-agency/next-iubenda@^1.0.0-alpha4":
+  version "1.0.0-alpha4"
+  resolved "https://registry.yarnpkg.com/@mep-agency/next-iubenda/-/next-iubenda-1.0.0-alpha4.tgz#4400235196bea16391a1373441dee0e7cb470a3a"
+  integrity sha512-kI1gCjQBphwT6u60Cs6vvgHm7I0JpGrg5fl5n16r7hKXS03hESISRMDwiOnBhG5X9OTv6xfFCPy2BBOVk9YINw==
+
 "@next/env@14.0.4":
   version "14.0.4"
   resolved "https://registry.yarnpkg.com/@next/env/-/env-14.0.4.tgz#d5cda0c4a862d70ae760e58c0cd96a8899a2e49a"

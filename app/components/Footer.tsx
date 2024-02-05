@@ -1,4 +1,5 @@
 import Link from "next/link"
+import IubendaPrivacyPolicy from "../components/IubendaPrivacyPolicy.js"
 
 export default function Footer() {
   return (
@@ -7,11 +8,9 @@ export default function Footer() {
         <p>Az. Agr. La Fondazza di Leena Pasanen - Grizzana Morandi (BO), Italy</p>
         <div>
             <ul className="hidden md:flex items-center gap-x-6 cursor-pointer">
-                <Link href="/">
-                    <li className="">
-                        PRIVACY
-                    </li>
-                </Link> 
+                <li className="">
+                  <IubendaPrivacyPolicy />
+                </li> 
             </ul>
         </div>
       </div>
